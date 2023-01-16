@@ -62,7 +62,22 @@ body {
     -moz-columns: 1;
     margin-left: -20px;
     font-size: 14px;
+    text-align: justify;
 
+    /* font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959; */
+}
+
+#research-results-list2 {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    margin-left: 0px;
+    font-size: 14px;
+    text-align: justify;
     /* font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -270,6 +285,10 @@ ol li, .bracket {
 
 .contacts-section, .tech-skills-section, .soft-skills-section {
     margin-left: 40px;
+}
+
+.contacts-section {
+    margin-top: 200px;
 }
 
 .contacts-section-type {
